@@ -1,0 +1,37 @@
+body {
+  background-color: #eee;
+  text-align: center;
+  font-family: sans-serif, monospace;
+  font-size: 20px;
+}
+
+header {
+  width: 100%;
+}
+
+figure {
+  background-color: white;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+ul {
+  text-align: left;
+  line-height: 1.75;
+  width: 40%;
+  margin: auto;
+}
+
+blockquote {
+  max-width: 25%;
+  margin: 40px auto 40px auto;
+  font-style: italic;
+}
