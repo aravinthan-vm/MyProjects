@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  --color-darkblue : #1b1b32;
+  --color-white : white;
+  --color-green: #37af65;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-white);
+  background: linear-gradient(90deg, rgba(255, 0, 255, 0.5), rgba(0, 255, 255, 0.5)), 
+    url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+  
+  font-family : Poppins, monospace;
+  font-size : 1.0rem;
+  line-height : 1.5;
+
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  line-height: 1.25;
+}
+
+main {
+  color: inherit;
+  background-color: var(--color-darkblue);
+  
+  width: 50%;
+  margin: auto;
+}
+
+form {
+  padding: 2.5rem;
+}
+
+label {
+  display: block;
+}
+
+.input-radio,
+.input-checkbox {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  
+  margin: 0.5rem 0rem;
+  padding: 0.5rem;
+  
+  border: 2px solid violet;
+  border-radius: 5px;
+}
+
+.input-textarea {
+  width: 100%;
+  margin: 0.5rem 0rem;
+  
+  min-height: 120px;
+  resize: vertical;
+  border: 2px solid var(--color-darkblue);
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  height: 2.5rem;
+  
+  color: inherit;
+  background-color: var(--color-green);
+  border: 2px solid var(--color-green);
+  border-radius: 5px;
+  
+  cursor: pointer;
+}
+
+span {
+  font-size: 0.75rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  lint-height: inherit;
+}
